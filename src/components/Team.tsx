@@ -12,7 +12,7 @@ interface Props {
 export function Team({ code, position, onChangeText }: Props) {
   return (
     <HStack alignItems="center">
-      {position === "left" && (
+      {position === "right" && (
         <CountryFlag isoCode={code} size={25} style={{ marginRight: 12 }} />
       )}
 
@@ -25,7 +25,7 @@ export function Team({ code, position, onChangeText }: Props) {
         onChangeText={onChangeText}
       />
 
-      {position === "right" && (
+      {position === "left" && (
         <CountryFlag isoCode={code} size={25} style={{ marginLeft: 12 }} />
       )}
     </HStack>
