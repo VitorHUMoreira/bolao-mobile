@@ -1,4 +1,4 @@
-Project made at Rocketseat Next Level Week - Copa.
+Project made at Rocketseat Next Level Week - Copa.<br/>
 The goal was to build a World Cup sweepstakes.
 
 <a href="https://github.com/VitorHUMoreira/bolao-web" target="_blank">Web</a> || <a href="https://github.com/VitorHUMoreira/bolao-server" target="_blank">Server</a>
